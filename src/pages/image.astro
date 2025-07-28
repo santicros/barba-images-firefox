@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout>
+  <div style="height: 500vh; border: 10px solid red;">
+    <p>You are in image.</p>
+    <p>Scroll down to view the image.</p>
+
+    <a href="/">Go to Index</a>
+  </div>
+  <img
+    src="https://picsum.photos/id/2/1000/1000"
+    alt=""
+    loading="lazy"
+    decoding="async"
+    width="1000"
+    height="1000"
+  />
+</Layout>
